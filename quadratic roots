@@ -3,25 +3,25 @@ class Quadratic
 {
   public static void main(String args[])
   {
-    double a,b,c,d,r1,r2;
+    double a,b,c,D,r1,r2;
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a,b,c values: ");
     a=sc.nextDouble();
     b=sc.nextDouble();
     c=sc.nextDouble();
-    d=(b*b)-(4*a*c);
-    if(d==0)
+    D=(b*b)-(4*a*c);
+    if(D==0)
     {
-      System.out.println("It has only one real root");
+      System.out.println("It has only one real and same root");
       r1= -b/(2*a);
       System.out.println("root of the equation is: "+r1);
     }
-    else if(d>0)
+    else if(D>0)
     {
       System.out.println("It has 2 real roots");
       r1= (-b+ Math.sqrt(d))/(2*a);
       r2= (-b- Math.sqrt(d))/(2*a);
-     System.out.println("Roots of the equation is: " +r1 +"and"+r2);
+     System.out.println("Roots of the equation is real and they are: " +r1 +"and"+r2);
     } 
     else 
     {
