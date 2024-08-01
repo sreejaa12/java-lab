@@ -1,0 +1,19 @@
+import java.util.*;
+class Relational
+{
+  public static void main(String ar[])
+  {
+    int a;
+    int b;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a,b values:");
+    a=sc.nextInt();
+    b=sc.nextInt();
+    System.out.println("Is a greater than b : " +(a>b));
+    System.out.println("Is a less than b : " +(a<b));
+    System.out.println("Is a greater than or equal to b : " +(a>=b));
+    System.out.println("Is a less than or equal to b : " +(a<=b));
+    System.out.println("Is a is equal to b : " +(a==b));
+     System.out.println("Is a not equal to b : " +(a!=b));
+  }
+ }   
