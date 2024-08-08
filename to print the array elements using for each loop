@@ -1,0 +1,14 @@
+import java.util.*;
+class Printf
+{
+public static void main(String args[])
+{
+  String name="sreeja";
+  int age=18;
+  double score=90.8;
+
+
+   System.out.printf("%s,%d,%f",name,age,score);
+    
+  }
+  }
