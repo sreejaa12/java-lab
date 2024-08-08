@@ -1,0 +1,15 @@
+import java.util.*;
+class CLA
+{
+  public static void main(String sree[])
+  {
+    System.out.println("The first argument is: "+sree[0]);
+    System.out.println("The second argument is: "+sree[1]);
+   }
+ }   
+
+output:-
+ javac CLA.java
+ java CLA sreeja 1225
+The first argument is: sreeja
+The second argument is: 1225
