@@ -1,0 +1,17 @@
+import java.util.*;
+class Mult
+{
+  public static void main(String args[])
+{
+  int i,m,n;
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter m,n values= ");
+  m=sc.nextInt();
+  n=sc.nextInt();
+  for(i=1; i<=n; i++)
+  {
+    System.out.println(m+" "+"x"+" "+i+" "+"="+(m*i));
+   }
+ }
+}    
+   
