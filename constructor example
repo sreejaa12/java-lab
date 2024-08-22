@@ -1,0 +1,21 @@
+
+class A
+{
+  A()
+  {
+    System.out.println("CONSTRUCTOR");
+   }
+   A(int n)
+   {
+     System.out.println("n value is "+n);
+   }
+   public static void main(String args[])
+   {
+      A obj1 = new A();
+      A obj2 = new A(10);
+    }
+ }        
+
+OUTPUT:-
+CONSTRUCTOR
+n value is 10
