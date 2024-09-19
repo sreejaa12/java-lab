@@ -1,0 +1,23 @@
+import java.util.*;
+class A{
+public void methodA()
+{
+  System.out.println("parent class");
+ }
+}
+class Single extends A{
+    public void methodB()
+    {
+       System.out.println("Child class");
+     }
+     public static void main(String args[])
+     {
+        Single s = new Single();
+        s.methodA();
+        s.methodB();
+      }
+   }
+         
+ OUTPUT:-      
+  parent class
+  Child class
