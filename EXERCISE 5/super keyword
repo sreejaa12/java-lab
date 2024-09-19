@@ -1,0 +1,25 @@
+import java.util.*;
+class Sree
+{
+  String name="SREEJA";
+}
+class Super extends Sree
+{
+   String name="RAMYA";
+void method() 
+{
+System.out.println(super.name);
+System.out.println(name);
+  
+  }
+   
+ public static void main(String args[])
+ {
+    Super s = new Super();
+    s.method();
+   }
+ }    
+      
+      OUTPUT:-
+            SREEJA
+            RAMYA
