@@ -1,0 +1,34 @@
+/* #USER DEFINED PACKAGE */
+package vitb;
+  public class Cse 
+  {
+    public void display()
+    {
+       System.out.println("Hello CSE");
+     }
+       
+  }
+
+// #Command to save
+   // Cse.java
+
+  // #IMPORTING USER DEFINED PACKAGE IN OUR PROGRAM
+import vitb.Cse;
+class Ramya
+ {
+    public static void main(String []args)
+    {
+       Cse c = new Cse();
+       c.display();
+     }
+}
+
+/* #COMMANDS
+  javac -d . Cse.java
+  javac Ramya.java
+  java Ramya */
+
+                                      OUTPUT:-
+                                      Hello CSE
+                                      
+
