@@ -1,0 +1,30 @@
+interface A
+{
+  public void methodA();
+}
+interface B
+{
+  public void methodB();
+
+}
+class C implements A,B
+{
+ public void methodA()
+{
+  System.out.println("interface A");
+}
+public void methodB()
+{
+ System.out.println("interface B");
+}
+public static void main(String args[])
+{
+  C s = new C();
+  s.methodA();
+  s.methodB();
+}
+}
+
+OUTPUT:-
+interface A
+interface B
